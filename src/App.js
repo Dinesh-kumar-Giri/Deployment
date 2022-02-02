@@ -25,13 +25,13 @@ function App() {
     {
       setMode('dark');
       document.body.style.background='#042743'
-      showAlert("dark mode has been enable","success")
+      // showAlert("dark mode has been enable","success")
     }
     else
     {
       setMode('light');
       document.body.style.background='white'
-      showAlert("white mode has been enable","success")
+      // showAlert("white mode has been enable","success")
 
     }
   }
