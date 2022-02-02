@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./component/Navbar";
 import TextForm from "./component/TextForm";
-import About from "./component/About";
+// import About from "./component/About";
 import { useState } from "react";
 // import Alert from "./component/Alert";
 
@@ -9,17 +9,17 @@ import { useState } from "react";
 function App() {
   const [mode, setMode] = useState('light ');
 
-  const [alert, setAlert] = useState(null);
+  // const [alert, setAlert] = useState(null);
 
-  const showAlert=(message,type)=>{
-    setAlert({
-      // yha pr alert ek object hai 
-      msg:message,
-      type:type
+  // const showAlert=(message,type)=>{
+  //   setAlert({
+  //     // yha pr alert ek object hai 
+  //     msg:message,
+  //     type:type
 
-    })
+  //   })
 
-  }
+  // }
   const toggleMode=()=>{
     if(mode==='light')
     {
